@@ -131,7 +131,7 @@
                     android:background="#ffffff"
                     android:gravity="center_vertical"
                     android:hint="@string/address_zip"
-                    android:inputType="number"
+                    android:inputType="textPostalAddress|number"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:singleLine="true"

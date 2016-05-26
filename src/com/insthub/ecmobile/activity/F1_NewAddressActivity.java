@@ -120,6 +120,7 @@ public class F1_NewAddressActivity extends BaseActivity implements BusinessRespo
                 String addtel=resource.getString(R.string.add_tel);
                 String emailText=resource.getString(R.string.add_email);
                 String cor=resource.getString(R.string.add_correct_email );
+                String corzip=resource.getString(R.string.add_correct_zipcode );
                 String adda=resource.getString(R.string.add_address);
                 String con=resource.getString(R.string.confirm_address);
 
@@ -155,6 +156,11 @@ public class F1_NewAddressActivity extends BaseActivity implements BusinessRespo
                     Intent intent = new Intent(F1_NewAddressActivity.this, F3_RegionPickActivity.class);
                     startActivityForResult(intent, 1);
                     overridePendingTransition(R.anim.my_scale_action,R.anim.my_alpha_action);
+				} else if(country_id.equals("3409")  && !ReflectionUtils.isCAPostCode(zipcode)) {
+					ToastView toast = new ToastView(F1_NewAddressActivity.this, corzip);
+			        toast.setGravity(Gravity.CENTER, 0, 0);
+			        toast.show();
+			        zipCode.requestFocus();
 				} else {
 					addressModel = new AddressModel(F1_NewAddressActivity.this);
 					addressModel.addResponseListener(F1_NewAddressActivity.this);

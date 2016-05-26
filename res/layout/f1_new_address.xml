@@ -80,15 +80,17 @@
                         android:layout_width="fill_parent"
                         android:layout_height="0.1dp"
                         android:background="#c4c4c4" />
+
                 <EditText
                     android:id="@+id/add_address_zipCode"
                     android:layout_width="fill_parent"
                     android:layout_height="40dp"
                     android:layout_margin="5dp"
                     android:background="#ffffff"
+                    android:ems="6"
                     android:gravity="center_vertical"
                     android:hint="@string/address_zip"
-                    android:inputType="number"
+                    android:inputType="textPostalAddress|number"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:singleLine="true"

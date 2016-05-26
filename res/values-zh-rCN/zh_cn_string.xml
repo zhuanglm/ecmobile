@@ -104,7 +104,7 @@
 <string name="shopcar_add">赶紧去逛逛吧！加一些商品~</string>
 <string name="shopcarfooter_total">总计：</string>
 <string name="shopcarfooter_settleaccounts">结算</string>
-<string name="shopcarhead_ecm">ECMobile</string>
+<string name="shopcarhead_ecm">AuroraECMobile</string>
 <string name="shopcaritem_done">完成</string>
 <string name="shopcaritem_modification">修改</string>
 <string name="shopcaritem_remove">移除商品</string>
@@ -130,6 +130,7 @@
 <string name="add_tel">请填写电话号码</string>
 <string name="add_email">请填写邮箱地址</string>
 <string name="add_correct_email">请填写正确的邮箱地址</string>
+<string name="add_correct_zipcode">请填写正确的加拿大邮政编码</string>
 <string name="add_address">请填写详细地址</string>
 <string name="confirm_address">请确认地址信息是否完整</string>
 <string name="select_province">选择省</string>
@@ -231,7 +232,7 @@
 <string name="tips_pull_refresh">下拉更新</string>
 <string name="tips_release_refresh">释放刷新</string>
 <string name="tips_last_update">最后更新：</string>
-<string name="again_exit">再按一次退出APP</string>
+<string name="again_exit">再按一次退出商城</string>
 <string name="xlistview_header_hint_normal">下拉刷新</string>
 <string name="xlistview_header_hint_ready">释放刷新</string>
 <string name="xlistview_header_hint_loading">正在加载…</string>
@@ -280,7 +281,7 @@
 <string name="single">单选</string>
 <string name="multiple">多选</string>
 <string name="unique">唯一</string>
-<string name="ecmobile">EC移动商城</string>
+<string name="ecmobile">Aurora移动商城</string>
 <string name="new_activity">最新活动</string>
 <string name="save">保存</string>
 <string name="avail_exp">您的可用积分为</string>
@@ -309,7 +310,7 @@
 <string name="please_input">请输入</string>
 <string name="signing_up">注册中</string>
 <string name="large_photo">商品大图</string>
-<string name="app_name">ECMobile</string>
+<string name="app_name">AuroraECMobile</string>
 <string name="user_not_exist">用户名不存在</string>
 <string name="invalid_password">密码错误</string>
 <string name="user_or_email_exists">用户名或email已使用</string>

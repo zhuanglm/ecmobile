@@ -82,5 +82,14 @@ public final class ReflectionUtils {
         Pattern p = Pattern.compile(str);     
         Matcher m = p.matcher(email);     
         return m.matches();     
-    } 
+    }
+    
+    public static boolean isCAPostCode(String zipcode){     
+        
+        String regex = "^(?!.*[DFIOQU])[A-VXY][0-9][A-Z] ?[0-9][A-Z][0-9]$";
+        Pattern pattern = Pattern.compile(regex);
+            
+        Matcher m = pattern.matcher(zipcode);     
+        return m.matches();     
+    }
 }

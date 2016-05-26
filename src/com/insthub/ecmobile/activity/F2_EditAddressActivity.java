@@ -145,6 +145,7 @@ public class F2_EditAddressActivity extends BaseActivity implements BusinessResp
                 String tel=resource.getString(R.string.add_tel);
                 String email=resource.getString(R.string.add_email);
                 String cor=resource.getString(R.string.add_correct_email);
+                String corzip=resource.getString(R.string.add_correct_zipcode );
                 String addr=resource.getString(R.string.add_address );
                 String con=resource.getString(R.string.confirm_address);
 
@@ -172,6 +173,11 @@ public class F2_EditAddressActivity extends BaseActivity implements BusinessResp
 					Toast toast = Toast.makeText(F2_EditAddressActivity.this, con, 0);
 			        toast.setGravity(Gravity.CENTER, 0, 0);
 			        toast.show();
+				} else if(country_id.equals("3409")  && !ReflectionUtils.isCAPostCode(zipcode)) {
+					ToastView toast = new ToastView(F2_EditAddressActivity.this, corzip);
+			        toast.setGravity(Gravity.CENTER, 0, 0);
+			        toast.show();
+			        zipCode.requestFocus();
 				} else {
 					addressModel.addressUpdate(address_id, consignee, telNum, mail, "", zipcode, address, country_id, province_id, city_id, county_id);
 				}

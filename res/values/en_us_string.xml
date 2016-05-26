@@ -104,7 +104,7 @@
 <string name="shopcar_add">Go around and buy</string>
 <string name="shopcarfooter_total">Subtotal:</string>
 <string name="shopcarfooter_settleaccounts">Check out</string>
-<string name="shopcarhead_ecm">ECMobile</string>
+<string name="shopcarhead_ecm">AuroraECMobile</string>
 <string name="shopcaritem_done">Done</string>
 <string name="shopcaritem_modification">Modify</string>
 <string name="shopcaritem_remove">Remove product</string>
@@ -130,6 +130,7 @@
 <string name="add_tel">Please enter phone number</string>
 <string name="add_email">Please enter email address</string>
 <string name="add_correct_email">Please enter correct email address</string>
+<string name="add_correct_zipcode">correct CANADA Post Code</string>
 <string name="add_address">Please enter address</string>
 <string name="confirm_address">Please check address</string>
 <string name="select_province">Select province/state/region</string>
@@ -280,7 +281,7 @@
 <string name="single">Single</string>
 <string name="multiple">Multiple</string>
 <string name="unique">Unique</string>
-<string name="ecmobile">ECMobile</string>
+<string name="ecmobile">AuroraECMobile</string>
 <string name="new_activity">New activities</string>
 <string name="save">Save</string>
 <string name="avail_exp">Available points</string>
@@ -309,7 +310,7 @@
 <string name="please_input">Please input</string>
 <string name="signing_up">Signing…</string>
 <string name="large_photo">Large photo</string>
-<string name="app_name">ECMobile</string>
+<string name="app_name">AuroraECMobile</string>
 <string name="user_not_exist">User does not exist</string>
 <string name="invalid_password">Invalid password</string>
 <string name="user_or_email_exists">Username or email already exists</string>

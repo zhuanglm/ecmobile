@@ -97,7 +97,7 @@ public class A1_SignupActivity extends BaseActivity implements OnClickListener, 
 
         registerModel = new RegisterModel(this);
         registerModel.addResponseListener(this);
-        registerModel.signupFields();
+        //cancelled by Raymond May 19 2016 registerModel.signupFields();		
 
 
     }
